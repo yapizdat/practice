@@ -1,0 +1,68 @@
+body{
+   
+    background-color: silver;
+    box-sizing: border-box;
+
+}
+
+.list{
+
+    width: 100%;
+    width: 260px;
+    background-color: rgb(129, 154, 202);
+    margin: 0 auto;
+
+
+}
+
+#button{
+    padding: 5px 25px;
+    background-color: tan;
+    text-transform: uppercase;
+    border-radius: 8px;
+    position: relative;
+    opacity: 0.8;
+    
+
+}
+
+#button:hover{
+    opacity: 1;
+}
+
+#input{
+    margin-top: 20px;
+    padding: 10px 35px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+
+
+/*это li созданый в JS*/
+li{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 200px;
+    padding: 3px;
+    list-style-type: none;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+/*это кнопка созданная в JS*/
+.btn{
+    
+    background-color: red;
+    color: seashell;
+   cursor: pointer;
+      
+}
+
